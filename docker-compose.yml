@@ -5,6 +5,7 @@ services:
     build: .
     container_name: api_github
     tty: true
+    restart: always
     volumes:
       - .:/usr/src/app
     networks:
